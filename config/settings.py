@@ -1,0 +1,7 @@
+CHUNK_SIZE = 1000
+CHUNK_OVERLAP = 150
+
+LLM_MODEL = "gpt-3.5-turbo"
+TEMPERATURE = 0.3
+
+FAISS_PATH = "data/faiss_index"
