@@ -30,9 +30,7 @@ FAISS Similarity Search
 Relevant Context Retrieval
       ↓
 LLM-based Answer Generation
-
-##🛠️ Tech Stack
-
+🛠️ Tech Stack
 Frontend: Streamlit
 
 Backend: Python
@@ -43,11 +41,11 @@ Vector Database: FAISS
 
 Framework: LangChain
 
-Embeddings: OpenAI embeddings
-
-mbeddings: OpenAI Embeddings
+Embeddings: OpenAI Embeddings
 
 📁 Project Structure
+text
+Copy code
 DSA-GPT/
 ├── app.py
 ├── config/
@@ -61,31 +59,40 @@ DSA-GPT/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
 ⚙️ Setup Instructions
 1️⃣ Clone the repository
+bash
+Copy code
 git clone https://github.com/your-username/DSA-GPT.git
 cd DSA-GPT
-
 2️⃣ Create a virtual environment
+bash
+Copy code
 python -m venv venv
 venv\Scripts\activate   # Windows
-
 3️⃣ Install dependencies
+bash
+Copy code
 pip install -r requirements.txt
-
 4️⃣ Configure environment variables
-
 Create a .env file in the project root:
 
+env
+Copy code
 OPENAI_API_KEY=your_openai_api_key_here
+⚠️ Do not commit .env to GitHub.
 
 5️⃣ Run the application
+bash
+Copy code
 streamlit run app.py
-
-
 The app will be available at:
 
+arduino
+Copy code
 http://localhost:8501
+
+
+
 
 
