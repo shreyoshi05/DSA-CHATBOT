@@ -43,39 +43,49 @@ Vector Database: FAISS
 
 Framework: LangChain
 
-Embeddings: OpenAI Embeddings
+Embeddings: OpenAI embeddings
 
----
+mbeddings: OpenAI Embeddings
 
-## 📁 Project Structure
-
+📁 Project Structure
 DSA-GPT/
-│
 ├── app.py
-│
 ├── config/
 │   └── settings.py
-│
 ├── loaders/
 │   └── url_loader.py
-│
 ├── embeddings/
 │   └── embedder.py
-│
 ├── chains/
 │   └── qa_chain.py
-│
 ├── requirements.txt
-│
 ├── .gitignore
-│
 └── README.md
-
----
 
 ⚙️ Setup Instructions
 1️⃣ Clone the repository
-
 git clone https://github.com/your-username/DSA-GPT.git
 cd DSA-GPT
+
+2️⃣ Create a virtual environment
+python -m venv venv
+venv\Scripts\activate   # Windows
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+4️⃣ Configure environment variables
+
+Create a .env file in the project root:
+
+OPENAI_API_KEY=your_openai_api_key_here
+
+5️⃣ Run the application
+streamlit run app.py
+
+
+The app will be available at:
+
+http://localhost:8501
+
 
