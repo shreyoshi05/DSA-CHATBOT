@@ -30,3 +30,34 @@ FAISS Similarity Search
 Relevant Context Retrieval
       ↓
 LLM-based Answer Generation
+
+##🛠️ Tech Stack
+
+Frontend: Streamlit
+
+Backend: Python
+
+LLM: OpenAI (API-based, configurable)
+
+Vector Database: FAISS
+
+Framework: LangChain
+
+Embeddings: OpenAI Embeddings
+
+##📁 Project Structure
+DSA-GPT/
+├── app.py
+├── config/
+│   └── settings.py
+├── loaders/
+│   └── url_loader.py
+├── embeddings/
+│   └── embedder.py
+├── chains/
+│   └── qa_chain.py
+├── requirements.txt
+├── .gitignore
+└── README.md
+
+
