@@ -45,19 +45,37 @@ Framework: LangChain
 
 Embeddings: OpenAI Embeddings
 
+---
+
 ## 📁 Project Structure
+
 DSA-GPT/
+│
 ├── app.py
+│
 ├── config/
 │   └── settings.py
+│
 ├── loaders/
 │   └── url_loader.py
+│
 ├── embeddings/
 │   └── embedder.py
+│
 ├── chains/
 │   └── qa_chain.py
+│
 ├── requirements.txt
+│
 ├── .gitignore
+│
 └── README.md
 
+---
+
+⚙️ Setup Instructions
+1️⃣ Clone the repository
+
+git clone https://github.com/your-username/DSA-GPT.git
+cd DSA-GPT
 
