@@ -45,7 +45,7 @@ Framework: LangChain
 
 Embeddings: OpenAI Embeddings
 
-##📁 Project Structure
+## 📁 Project Structure
 DSA-GPT/
 ├── app.py
 ├── config/
