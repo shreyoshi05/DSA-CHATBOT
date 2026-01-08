@@ -36,7 +36,8 @@ if query:
     else:
         llm, retriever = get_qa_chain()
 
-        docs = retriever.get_relevant_documents(query)
+        docs = retriever.invoke(query)
+
 
         context = "\n\n".join([doc.page_content for doc in docs])
 
